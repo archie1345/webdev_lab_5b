@@ -9,6 +9,7 @@ if (!isset($_SESSION['user_id'])) {
 
 include 'Database.php';
 include 'User.php';
+include 'session_timeout.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Retrieve the data from the POST request
